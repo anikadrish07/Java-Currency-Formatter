@@ -54,8 +54,6 @@ public class F {
         NumberFormat n3 = NumberFormat.getCurrencyInstance(Locale.FRANCE);
         String france = n3.format(payment);
         
-        // Write your code here.
-        
         System.out.println("US: " + us);
         System.out.println("India: " + india);
         System.out.println("China: " + china);
